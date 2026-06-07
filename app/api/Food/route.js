@@ -1,4 +1,7 @@
 export async function GET(req) {
+
+   // Get the search query from the request URL
+
   try {
     const { searchParams } =
       new URL(req.url);
